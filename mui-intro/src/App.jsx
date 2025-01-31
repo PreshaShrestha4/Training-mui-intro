@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 const App = () => {
   const [count, setCount] = useState(0);
+
   return (
     <Box>
       <Typography variant="h3">{count}</Typography>
@@ -16,6 +17,8 @@ const App = () => {
       >
         increase count
       </Button>
+
+      <Button>decrease count</Button>
     </Box>
   );
 };
